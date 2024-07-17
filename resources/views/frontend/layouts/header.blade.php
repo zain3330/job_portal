@@ -26,7 +26,7 @@
                         <a class="nav-link" aria-current="page" href="{{ route('index') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="{{route('jobs')}}">Find Jobs</a>
+                        <a class="nav-link" aria-current="page" href="{{route('job')}}">Find Jobs</a>
                     </li>
                 </ul>
                 <a class="btn btn-outline-primary me-2" href="login.html" type="submit">Login</a>

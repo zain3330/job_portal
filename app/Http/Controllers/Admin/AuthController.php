@@ -4,10 +4,10 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 
-class DashboardController extends Controller
+class AuthController extends Controller
 {
     public function index()
     {
-        return view('admin.dashboard');
+        return view('admin.login');
     }
 }

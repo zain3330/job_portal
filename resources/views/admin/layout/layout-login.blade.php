@@ -27,8 +27,7 @@
 
 
 </head>
-<body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
-<div class="wrapper">
+
 
     <!-- Preloader -->
     {{--    <div class="preloader flex-column justify-content-center align-items-center">--}}
@@ -36,9 +35,7 @@
     {{--             height="60" width="60">--}}
     {{--    </div>--}}
 
-    @include('admin.layout.header')
 
-    @include('admin.layout.sidebar')
 
     @yield('content-section')
 
@@ -48,7 +45,6 @@
     </aside>
     <!-- /.control-sidebar -->
 
-    @include('admin.layout.footer')
 </div>
 <!-- ./wrapper -->
 
@@ -93,5 +89,5 @@
 <!-- Initialize DataTables -->
 
 @yield('script')
-</body>
+
 </html>
